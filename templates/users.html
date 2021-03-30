@@ -1,0 +1,20 @@
+<table border =1>
+    <h2>The Details From the DataBase are:</h2>
+   
+   {% for user in userDetails %}
+   
+   <tr>
+    
+       <td>{{user[0]}}</td>
+        
+       <td>{{user[1]}}</td>
+     
+       <td>{{user[2]}}</td>
+    
+       <td>{{user[3]}}</td>
+        
+       <td>{{user[4]}}</td>
+        
+   </tr>
+   {% endfor %}
+</table>
